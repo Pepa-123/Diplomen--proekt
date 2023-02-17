@@ -8,6 +8,8 @@
         public string Quality { get; set; }
         public int Size { get; set; }
         public string Requirement { get; set; }
+        public int RegisterOn { get; set; }
+        ICollection<Customers> Customers { get; set; }
 
     }
 }

@@ -9,6 +9,7 @@
         public int ImageURL { get; set; }
         public int Price { get; set; }
         public int RegisterOn { get; set; }
+        ICollection<ShoppingCandies> ShoppingCandies { get; set; }
 
     }
 }
